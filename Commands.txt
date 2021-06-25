@@ -1,0 +1,49 @@
+git init
+git status
+git add -A
+git commit -m "Message"
+git log
+git diff head
+git diff --staged
+git reset footer.html
+git branch
+git branch fixpages
+git checkout fixpages
+git checkout master 
+git merge fixpages
+git rm code04.cs
+cat code04.cs
+git branch -d fixpages
+
+git push origin master -> your branch aheade of 'origin'/master by commit
+
+git pull origin master
+---------------------------------------------------
+git push -u origin master   از این به بعد خودش تشخیص می ده
+git pull -u origin master
+---------------------------------------------------
+git remote add origin https://github.com/test-repo/
+git remote -v ---> verbose
+
+
+git show commit_name
+
+git tag -a v2.0 -m "message"
+git tag -a v1.8 commit_name -m "message"
+git tag -l "v*"
+
+git show v1.8
+
+git push origin v1.8
+git push origin v2.0
+git push origin --tags
+
+git checkout v1.8
+
+-------------------
+gpg --list-keys
+gpg --gen-key
+-------------------
+
+git help blame
+git blame file_name -L8   ->(L8 line number or L8,10)
