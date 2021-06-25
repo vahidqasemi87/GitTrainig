@@ -8,7 +8,9 @@ namespace MyProgram
         {
             Console.WriteLine("Hello World!");
             Console.ReadKey();
-            System.Console.WriteLine(DateTime.Now);
+
+            Console.WriteLine($"{Datetime.Now}");
+
         }
     }
 }
